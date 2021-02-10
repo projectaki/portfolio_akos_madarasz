@@ -1,11 +1,11 @@
 import './App.css';
 import 'materialize-css/dist/css/materialize.min.css';
 import 'materialize-css/dist/js/materialize.min.js';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 import Profile from './components/Profile';
 import Projects from './components/Projects';
 import Home from './components/Home';
-import Navbar from './components/Navbar'
+import Navbar from './components/Navbar';
 
 
 
@@ -13,7 +13,7 @@ function App() {
   return (
     <>
     
-    <Router>
+    <HashRouter basename="/">
     <Navbar />
     
       <>
@@ -25,7 +25,7 @@ function App() {
         </Switch>
       </>
       
-    </Router>
+    </HashRouter>
 
 
 

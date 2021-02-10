@@ -15,9 +15,16 @@ class Navbar extends Component {
                 <nav class="nav-center grey darken-3" role="navigation">
                     <div class="nav-wrapper container">
                         <ul>
-                            <li><a href="/">Home</a></li>
-                            <li><a href="/Profile">Profile</a></li>
-                            <li><a href="/Projects">Projects</a></li>
+                            <li>
+                                <Link to="/">Home</Link>
+                                
+                            </li>
+                            <li>
+                                <Link to="/Profile">Profile</Link>
+                            </li>
+                            <li>
+                                <Link to="/Projects">Projects</Link>
+                            </li>
                         </ul>
                     </div>
                 </nav>
