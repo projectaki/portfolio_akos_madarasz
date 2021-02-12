@@ -4,29 +4,29 @@ class Skills extends Component {
     render() {
         return (
             <div>
-                <div className="card">
+                <div className="card" style={{"background-color": "#d9b382"}}>
                     <div className="card-content">
-                        <span className="card-title  grey-text text-darken-4">
+                        <h5 className="grey-text text-darken-4 resp-h-size">
                             Skills
-                        </span>
+                        </h5>
                         <br/>
-                        <span>Java</span>
+                        <p className="resp-p-size">Java</p>
                         <div class="progress">
                             <div class="determinate" style={{width: "60%"}}></div>
                         </div>
-                        <span>Python</span>
+                        <p className="resp-p-size">Python</p>
                         <div class="progress">
                             <div class="determinate" style={{width: "50%"}}></div>
                         </div>
-                        <span>C#</span>
+                        <p className="resp-p-size">C#</p>
                         <div class="progress">
                             <div class="determinate" style={{width: "40%"}}></div>
                         </div>
-                        <span>JavaScript</span>
+                        <p className="resp-p-size">JavaScript</p>
                         <div class="progress">
                             <div class="determinate" style={{width: "50%"}}></div>
                         </div>
-                        <span>SQL</span>
+                        <p className="resp-p-size">SQL</p>
                         <div class="progress">
                             <div class="determinate" style={{width: "60%"}}></div>
                         </div>

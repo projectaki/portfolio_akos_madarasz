@@ -14,7 +14,10 @@ class Navbar extends Component {
             <>
                 <nav class="nav-center grey darken-3" role="navigation">
                     <div class="nav-wrapper container">
-                        <ul>
+                        <Link to="/" data-target="slide-out" className="sidenav-trigger">
+                            <i className="material-icons">menu</i>
+                        </Link>
+                        <ul id="nav-mobile" class="hide-on-med-and-down">
                             <li>
                                 <Link to="/">Home</Link>
                                 
@@ -28,6 +31,20 @@ class Navbar extends Component {
                         </ul>
                     </div>
                 </nav>
+
+                <ul id="slide-out" class="sidenav grey darken-3">
+                    <li className="sidenav-close" >
+                        <Link to="/" style={{color: "white"}}>Home</Link>
+                        
+                    </li>
+                    <li className="sidenav-close">
+                        <Link to="/Profile" style={{color: "white"}}>Profile</Link>
+                    </li>
+                    <li className="sidenav-close">
+                        <Link to="/Projects" style={{color: "white"}}>Projects</Link>
+                    </li>
+                </ul>
+                
             </>
         );
     }

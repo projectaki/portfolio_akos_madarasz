@@ -8,16 +8,16 @@ class Picture extends Component {
             <div>
                 <div>
                 
-                <div className="card">
+                <div className="card" style={{"background-color": "#d9b382"}}>
                     <div className="card-image">
                         <img className="activator" src={ImgProfile} alt="Akos Madarasz"/>
                         
                     </div>
-                    <div className="card-content">
-                        <span className="card-title  grey-text text-darken-4">
+                    <div className="card-content profile-pad">
+                        <h6 className=" grey-text text-darken-4 resp-h-size">
                             Akos Madarasz
-                        </span>
-                        <p>Software developer</p>
+                        </h6>
+                        <p className="resp-p-size">Software developer</p>
                     </div>
                     
             </div>
