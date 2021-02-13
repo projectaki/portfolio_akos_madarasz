@@ -4,32 +4,17 @@ class Skills extends Component {
     render() {
         return (
             <div>
-                <div className="card" style={{"background-color": "#d9b382"}}>
+                <div className="card" style={{"background-color": "#7A71AA"}}>
                     <div className="card-content">
-                        <h5 className="grey-text text-darken-4 resp-h-size">
+                        <h5 className="grey-text text-darken-4 resp-h-size" style={{paddingBottom: "1vh"}}>
                             Skills
                         </h5>
-                        <br/>
-                        <p className="resp-p-size">Java</p>
-                        <div class="progress">
-                            <div class="determinate" style={{width: "60%"}}></div>
-                        </div>
-                        <p className="resp-p-size">Python</p>
-                        <div class="progress">
-                            <div class="determinate" style={{width: "50%"}}></div>
-                        </div>
-                        <p className="resp-p-size">C#</p>
-                        <div class="progress">
-                            <div class="determinate" style={{width: "40%"}}></div>
-                        </div>
-                        <p className="resp-p-size">JavaScript</p>
-                        <div class="progress">
-                            <div class="determinate" style={{width: "50%"}}></div>
-                        </div>
-                        <p className="resp-p-size">SQL</p>
-                        <div class="progress">
-                            <div class="determinate" style={{width: "60%"}}></div>
-                        </div>
+                        <p className="resp-p-size white-text">Java</p>
+                        <p className="resp-p-size white-text">Python</p>
+                        <p className="resp-p-size white-text">C#</p>
+                        <p className="resp-p-size white-text">JavaScript</p>
+                        <p className="resp-p-size white-text">SQL</p>
+                        
                         
                     </div>
                     

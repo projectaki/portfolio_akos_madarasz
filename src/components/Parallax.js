@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Img from '../images/hdtri.png';
+import Img from '../images/galaxy.jpg';
 import M from 'materialize-css';
 class Parallax extends Component {
 

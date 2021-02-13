@@ -8,16 +8,16 @@ class Picture extends Component {
             <div>
                 <div>
                 
-                <div className="card" style={{"background-color": "#d9b382"}}>
+                <div className="card" style={{"background-color": "#7A71AA", marginBottom: 0}}>
                     <div className="card-image">
                         <img className="activator" src={ImgProfile} alt="Akos Madarasz"/>
                         
                     </div>
                     <div className="card-content profile-pad">
-                        <h6 className=" grey-text text-darken-4 resp-h-size">
+                        <h6 className=" black-text resp-h-size">
                             Akos Madarasz
                         </h6>
-                        <p className="resp-p-size">Software developer</p>
+                        <p className="white-text resp-p-size" style={{fontStyle: "italic"}}>Software developer</p>
                     </div>
                     
             </div>

@@ -16,6 +16,15 @@
   font-size: 2vw;
   padding: 1%;
   margin: 0;
+  padding-bottom: 1vh;
+}
+
+.resp-h6 {
+  font-size: 1.7vw;
+  padding: 1%;
+  margin: 0;
+  color: black;
+  padding-bottom: 1vh;
 }
 
 .no-padding {
@@ -37,7 +46,7 @@
 }
 
 .parallax-container{
-  height: 20vh !important;
+  height: 30vh !important;
 }
 
 .project-list {
@@ -64,7 +73,7 @@ nav.nav-center ul li a {
     transform: translateY(0px);
   }
   50% {
-    transform: translateY(20px);
+    transform: translateY(10px);
   }
   100% {
     transform: translateY(0px);
@@ -76,7 +85,7 @@ nav.nav-center ul li a {
     transform: translateY(0px);
   }
   50% {
-    transform: translateY(-20px);
+    transform: translateY(-10px);
   }
   100% {
     transform: translateY(0px);
@@ -105,6 +114,6 @@ body {
 .card-content {
   padding-left: 5% !important;
   padding-right: 5% !important;
-  padding-top: 5% !important;
+  padding-top: 2% !important;
   padding-bottom: 5% !important;
 }
