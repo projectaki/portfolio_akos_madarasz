@@ -15,7 +15,7 @@ class Home extends Component {
                             
                                 <div className="container pad-left-right">
                                 <span className="resp-h-size" style={{fontFamily: "roboto Slab", color: "#24A9F7", fontStyle: "italic"}}>Hi, I am Akos!</span>
-                            <p style={{fontFamily: "roboto Slab", fontSize: "1.3vw", paddingLeft:"2%", color: "white"}} className="resp-p-size">This is my portfolio. You can find my CV under my profile section. I like to create programming projects in my free time
+                            <p style={{fontFamily: "roboto Slab", fontSize: "1.3vw", paddingLeft:"2%", color: "white", textAlign: "justify"}} className="resp-p-size">I am a software developer. You can find my CV under the About section. I like to create programming projects in my free time
                                 and my projects can be found under the projects tab. I am mostly interested in algorithms, data structures and I prefer backend
                                 development, but I have recently, slightly got into frontend to create visualisations for some of my projects! I plan on
                                 continously extending my portfolio with new projects and technologies as time goes.

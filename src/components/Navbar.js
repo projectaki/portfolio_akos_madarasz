@@ -23,7 +23,7 @@ class Navbar extends Component {
                                 
                             </li>
                             <li>
-                                <Link to="/Profile">Profile</Link>
+                                <Link to="/Profile">About</Link>
                             </li>
                             <li>
                                 <Link to="/Projects">Projects</Link>

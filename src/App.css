@@ -10,6 +10,9 @@
 
 .resp-p-size {
   font-size: 1.1vw;
+  font-family: roboto Slab;
+  color: #E6F2F3;
+  padding-bottom: 2vh;
 }
 
 .resp-h-size {
@@ -17,13 +20,14 @@
   padding: 1%;
   margin: 0;
   padding-bottom: 1vh;
+  font-family: roboto Slab;
+  padding-left: 0;
 }
 
 .resp-h6 {
-  font-size: 1.7vw;
-  padding: 1%;
+  font-size: 1.3vw;
   margin: 0;
-  color: black;
+  color: #434A4B;
   padding-bottom: 1vh;
 }
 
@@ -103,7 +107,7 @@ nav.nav-center ul li a {
 }
 
 body {
-  background-color:grey;
+  background-color:#366275;
 }
 
 .profile-pad {
