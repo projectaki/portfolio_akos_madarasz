@@ -5,6 +5,7 @@ import Skills from './Skills';
 import Picture from './Picture';
 import Education from './Education';
 
+
 class Profile extends Component {
     render() {
         return (
@@ -12,14 +13,12 @@ class Profile extends Component {
                 
                 <div className="container">
                     <div className="row">
-                        <div className="col s4 m4 l3 profile-pad">
+                        <div className="col s4 m4 l2 profile-pad">
                             <Picture/>
                             <Skills/>
                         </div>
                         <div className="col s8 m8 l9 profile-pad">
-                            <Description/>
-                            <Work/>
-                            <Education/>
+                            
                         </div>
                         
                     </div>

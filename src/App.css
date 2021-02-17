@@ -1,3 +1,7 @@
+html, body {
+  height: 100%;
+}
+
 .flex-container {
   display: flex;
   flex-direction: row;
@@ -51,6 +55,14 @@
 
 .parallax-container{
   height: 30vh !important;
+}
+
+@media screen and (max-width: 540px) {
+  .parallax-container{
+      height: 25vh !important;
+  }
+
+ 
 }
 
 .project-list {
@@ -107,7 +119,8 @@ nav.nav-center ul li a {
 }
 
 body {
-  background-color:#366275;
+  background-color:beige;
+  
 }
 
 .profile-pad {
@@ -121,3 +134,42 @@ body {
   padding-top: 2% !important;
   padding-bottom: 5% !important;
 }
+
+
+.scroll {
+  border-bottom: 0.5vh solid white;
+  padding: 1rem;
+  height: 100vh;
+  text-align: center;
+  position: relative;
+  
+}
+
+.center-section  {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: white;
+  width: 100%;
+  left: 0;
+  font-size: calc(1rem + 3vw);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.padding-profile {
+  padding-left: 30vw;
+  padding-right: 30vw;
+}
+
+@media screen and (max-width: 479px){
+  .padding-profile {
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
+}
+
+
