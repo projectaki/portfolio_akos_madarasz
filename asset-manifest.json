@@ -1,27 +1,31 @@
 {
   "files": {
-    "main.css": "/portfolio_akos_madarasz/static/css/main.7377cb90.chunk.css",
-    "main.js": "/portfolio_akos_madarasz/static/js/main.1a9c36ec.chunk.js",
-    "main.js.map": "/portfolio_akos_madarasz/static/js/main.1a9c36ec.chunk.js.map",
+    "main.css": "/portfolio_akos_madarasz/static/css/main.3c9dbf0c.chunk.css",
+    "main.js": "/portfolio_akos_madarasz/static/js/main.95524018.chunk.js",
+    "main.js.map": "/portfolio_akos_madarasz/static/js/main.95524018.chunk.js.map",
     "runtime-main.js": "/portfolio_akos_madarasz/static/js/runtime-main.d181f3dc.js",
     "runtime-main.js.map": "/portfolio_akos_madarasz/static/js/runtime-main.d181f3dc.js.map",
     "static/css/2.0a49d93f.chunk.css": "/portfolio_akos_madarasz/static/css/2.0a49d93f.chunk.css",
-    "static/js/2.69164222.chunk.js": "/portfolio_akos_madarasz/static/js/2.69164222.chunk.js",
-    "static/js/2.69164222.chunk.js.map": "/portfolio_akos_madarasz/static/js/2.69164222.chunk.js.map",
+    "static/js/2.ad5d1903.chunk.js": "/portfolio_akos_madarasz/static/js/2.ad5d1903.chunk.js",
+    "static/js/2.ad5d1903.chunk.js.map": "/portfolio_akos_madarasz/static/js/2.ad5d1903.chunk.js.map",
     "static/js/3.6f98e693.chunk.js": "/portfolio_akos_madarasz/static/js/3.6f98e693.chunk.js",
     "static/js/3.6f98e693.chunk.js.map": "/portfolio_akos_madarasz/static/js/3.6f98e693.chunk.js.map",
     "index.html": "/portfolio_akos_madarasz/index.html",
     "static/css/2.0a49d93f.chunk.css.map": "/portfolio_akos_madarasz/static/css/2.0a49d93f.chunk.css.map",
-    "static/css/main.7377cb90.chunk.css.map": "/portfolio_akos_madarasz/static/css/main.7377cb90.chunk.css.map",
-    "static/js/2.69164222.chunk.js.LICENSE.txt": "/portfolio_akos_madarasz/static/js/2.69164222.chunk.js.LICENSE.txt",
+    "static/css/main.3c9dbf0c.chunk.css.map": "/portfolio_akos_madarasz/static/css/main.3c9dbf0c.chunk.css.map",
+    "static/js/2.ad5d1903.chunk.js.LICENSE.txt": "/portfolio_akos_madarasz/static/js/2.ad5d1903.chunk.js.LICENSE.txt",
     "static/media/galaxy.9b7c41ba.jpg": "/portfolio_akos_madarasz/static/media/galaxy.9b7c41ba.jpg",
-    "static/media/me.19bac7f7.jpg": "/portfolio_akos_madarasz/static/media/me.19bac7f7.jpg"
+    "static/media/hanoi.a51180d8.JPG": "/portfolio_akos_madarasz/static/media/hanoi.a51180d8.JPG",
+    "static/media/me.19bac7f7.jpg": "/portfolio_akos_madarasz/static/media/me.19bac7f7.jpg",
+    "static/media/App.css": "/portfolio_akos_madarasz/static/media/mountain2.1e22b005.jpg",
+    "static/media/pathfinding.40654409.JPG": "/portfolio_akos_madarasz/static/media/pathfinding.40654409.JPG",
+    "static/media/sort.adafdb66.JPG": "/portfolio_akos_madarasz/static/media/sort.adafdb66.JPG"
   },
   "entrypoints": [
     "static/js/runtime-main.d181f3dc.js",
     "static/css/2.0a49d93f.chunk.css",
-    "static/js/2.69164222.chunk.js",
-    "static/css/main.7377cb90.chunk.css",
-    "static/js/main.1a9c36ec.chunk.js"
+    "static/js/2.ad5d1903.chunk.js",
+    "static/css/main.3c9dbf0c.chunk.css",
+    "static/js/main.95524018.chunk.js"
   ]
 }
