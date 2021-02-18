@@ -53,7 +53,7 @@ class Profile extends Component {
                     </section>
                     <section className="scroll padding-profile" style={{backgroundColor: "beige",  paddingTop: "10vh"}}>
                         
-                        <h5 className="bold-style resp-h-size" style={{"color": "black", paddingLeft: 0, paddingBottom: "5vh"}}>Contributions</h5>
+                        <h5 className="bold-style resp-h-size" style={{"color": "black", paddingLeft: 0, paddingBottom: "5vh"}}>&lt;Contributions&gt;</h5>
                         <h6 className="resp-h6" style={{paddingLeft: 0, color: "black"}}>
                                     Research paper:
                                 </h6>
@@ -64,7 +64,7 @@ class Profile extends Component {
                                 </a>
                     </section>
                     <section className="scroll padding-profile" style={{backgroundColor: "grey",  paddingTop: "10vh"}}>
-                        <h5 className="bold-style resp-h-size" style={{"color": "beige", paddingLeft: 0, paddingBottom: "5vh"}}>More about me</h5>
+                        <h5 className="bold-style resp-h-size" style={{"color": "beige", paddingLeft: 0, paddingBottom: "5vh"}}>&lt;More about me&gt;</h5>
                         <Picture/>
                     </section>
                     

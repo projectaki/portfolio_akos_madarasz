@@ -1,5 +1,6 @@
 html, body {
   height: 100%;
+  overflow: hidden;
 }
 
 .flex-container {
@@ -193,13 +194,13 @@ body {
 }
 
 .scrollcont {
-  height: 91vh;
+  height: 100vh;
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
 }
 
 section {
-  height: 91vh;
+  height: 100vh;
   scroll-snap-align: start;
 }
 
@@ -237,4 +238,29 @@ section span {
 
 section.is-visible span {
   opacity: 1;
+}
+
+.gallery {
+  background: #EEE;
+}
+
+.gallery-cell {
+  width: 28%;
+  height: 200px;
+  margin-right: 10px;
+  background: #8C8;
+  counter-increment: gallery-cell;
+}
+
+.gallery-cell.is-selected {
+  background: #ED2;
+}
+
+.gallery-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(gallery-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
 }

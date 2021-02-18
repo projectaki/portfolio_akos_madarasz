@@ -1,29 +1,29 @@
 import React, { Component } from 'react';
-
 import Carousel, { Dots } from '@brainhubeu/react-carousel';
 import '@brainhubeu/react-carousel/lib/style.css';
 import PathImg from "../images/pathfinding.JPG";
 import HanoiImg from "../images/hanoi.JPG";
 import SortImg from "../images/sort.JPG";
 
-class Test extends Component {
+class ProjectCarousel extends Component {
 
     constructor(props) {
         super(props);
         this.state = {
           value: 0,
         };
-      }
+    }
 
-      onChange = value => this.setState({ value });
-    
+    onChange = value => this.setState({ value });
+
+
     render() {
         return (
             <div>
                 
                 <Carousel 
-                arrowLeft={<i style={{color: "white"}} className="fas fa-chevron-left fa-3x"></i>} 
-                arrowRight={<i style={{color: "white"}} class="fas fa-chevron-right fa-3x" ></i>} 
+                arrowLeft={<i style={{color: "black"}} className="fas fa-chevron-left fa-3x"></i>} 
+                arrowRight={<i style={{color: "black"}} class="fas fa-chevron-right fa-3x" ></i>} 
                 addArrowClickHandler
                 slidesPerPage={1}
                 clickToChange
@@ -36,15 +36,15 @@ class Test extends Component {
                 >
                     <div style={{textAlign: "center"}}>
                         <img src={PathImg} style={{height: "30vmin", width: "30vmin"}}/>
-                        <h5 style={{color: "white", paddingTop: "5vmin"}} className="resp-h6">Pathfinder</h5>
+                        <h5 style={{color: "black", paddingTop: "5vmin"}} className="resp-h6">Pathfinder</h5>
                     </div>
                     <div style={{textAlign: "center"}}>
                         <img src={HanoiImg} style={{height: "30vmin", width: "30vmin"}}/>
-                        <h5 style={{color: "white", paddingTop: "5vmin"}} className="resp-h6">Towers of Hanoi</h5>
+                        <h5 style={{color: "black", paddingTop: "5vmin"}} className="resp-h6">Towers of Hanoi</h5>
                     </div>
                     <div style={{textAlign: "center"}}>
                         <img src={SortImg} style={{height: "30vmin", width: "30vmin"}}/>
-                        <h5 style={{color: "white", paddingTop: "5vmin"}} className="resp-h6">Sorting Visualiser</h5>
+                        <h5 style={{color: "black", paddingTop: "5vmin"}} className="resp-h6">Sorting Visualiser</h5>
                     </div>
                     
                 </Carousel>
@@ -53,9 +53,8 @@ class Test extends Component {
                 </div>
                 
             </div>
-            
         );
     }
 }
 
-export default Test;
+export default ProjectCarousel;

@@ -16,9 +16,9 @@ class Home extends Component {
                             
                                 <div style={{position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)", width: "60vw"}}>
                                     <h5 className="resp-h-size" style={{fontFamily: "roboto Slab", color: "white", fontStyle: "italic", fontSize: "4vmin"}}>Hi, I am Akos!</h5>
-                                        <p style={{color: "white"}} className="screen-p">I am a software developer. You can find my CV under the About section. I like to create programming projects in my free time
-                                            and my projects can be found under the projects tab. I am mostly interested in algorithms, data structures and I prefer backend
-                                            development, but I have recently, slightly got into frontend to create visualisations for some of my projects! I plan on
+                                        <p style={{color: "white"}} className="screen-p">I am a software developer. You can find my CV under the &lt;About&gt; section. I like to create programming projects in my free time
+                                            and my projects can be found under the &lt;Projects&gt; tab. I am mostly interested in algorithms, data structures and I prefer backend
+                                            development, but I have recently got into frontend to create visualisations for some of my projects! I plan on
                                             continously extending my portfolio with new projects and technologies as time goes.
                                         </p>
                                 </div>

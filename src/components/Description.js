@@ -4,7 +4,7 @@ class Description extends Component {
     render() {
         return (
             <div>  
-                <h5 className="bold-style resp-h-size" style={{"color": "Black", paddingLeft: 0, paddingBottom: "5vh"}}>Profile</h5>
+                <h5 className="bold-style resp-h-size" style={{"color": "Black", paddingLeft: 0, paddingBottom: "5vh"}}>&lt;Profile&gt;</h5>
                 <div style={{paddingLeft: "1vw", paddingRight:"1vw", textAlign: "justify"}}>
                     <p className="resp-p-size" style={{ color: "black"}}>
                     I have experience with the core elements of software development: working with agile and SCRUM,

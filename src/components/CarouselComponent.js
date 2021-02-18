@@ -44,8 +44,12 @@ class CarouselComponent extends Component {
                             
                             <div class="carousel-item" href="#one!" >
                                 <a href="https://projectaki.github.io/hanoi_vis/" class="collection-item" >
-                                    <img src={HanoiImg} style={{width: "30vmin", height: "30vmin", position: "absolute", top: "50%", transform: "translate(-50%,-50%)",paddingBottom: "5vmin"}}></img>
-                                    <label style={{left: "50%" ,transform: "translateX(-50%)", position: "absolute", fontSize: "3vmin"}}>Towers of Hanoi</label>
+                                    
+                                    <img src={HanoiImg} style={{width: "30vmin", height: "30vmin", position: "absolute", top: "50%", transform: "translate(-50%,-50%)"}}/>
+                                        
+                                    
+                                    
+                                    <label style={{left: "50%" ,top: "30%", transform: "translate(-50%,-70%)", position: "absolute", fontSize: "3vmin"}}>Towers of Hanoi</label>
                                 </a>
                             
                             </div>

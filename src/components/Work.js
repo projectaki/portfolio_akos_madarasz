@@ -6,7 +6,7 @@ class Work extends Component {
             <div>
                 
                         
-                            <h5 className="bold-style resp-h-size" style={{"color": "beige", paddingLeft: 0, paddingBottom: "5vh"}}>Work Experience</h5>
+                            <h5 className="bold-style resp-h-size" style={{"color": "beige", paddingLeft: 0, paddingBottom: "5vh"}}>&lt;Work Experience&gt;</h5>
                             <div style={{paddingLeft: "1vw", paddingRight:"1vw", textAlign: "justify"}}>
                             <h6 className="resp-h6 bold-style" style={{paddingLeft: 0, color: "beige"}}>
                                     University College of Northern Denmark
