@@ -30,7 +30,7 @@ class Test extends Component {
                                     Research paper:
                                 </h6>
                                 <a href="https://www.scitepress.org/PublicationsDetail.aspx?ID=n0qtGGKt5S4%3D&t=1&fbclid=IwAR0fxltFsLpdHYi3Mk2yzlKEke0ynLlgZ-I1USYuO5Ezt32T6VbKG7MBREQ">
-                                    <p style={{textDecoration: "underline", color: "#165896", fontSize:"1.1vw"}}>
+                                    <p style={{textDecoration: "underline", color: "#165896", fontSize:"2vmin"}}>
                                         Real-time Visualization of Sensor Data in Smart Manufacturing using Lambda Architecture
                                     </p>
                                 </a>

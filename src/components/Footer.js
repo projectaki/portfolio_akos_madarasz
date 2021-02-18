@@ -4,7 +4,7 @@ class Footer extends Component {
     render() {
         return (
             <div>
-                <footer class="page-footer grey darken-3">
+                <footer class="page-footer grey darken-3" style={{height: "22vh"}}>
                     <div class="container">
                         <div class="row">
                         <div class="col l6 s12">
@@ -20,6 +20,7 @@ class Footer extends Component {
                     <div class="footer-copyright">
                         <div class="container">
                         © 2021
+                        
                         
                         </div>
                     </div>

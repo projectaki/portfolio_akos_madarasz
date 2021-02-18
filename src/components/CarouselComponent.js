@@ -3,12 +3,16 @@ import M from "materialize-css";
 import Description from "./Description";
 import Work from "./Work";
 import Education from "./Education";
+import PathImg from "../images/pathfinding.JPG";
+import HanoiImg from "../images/hanoi.JPG";
+import SortImg from "../images/sort.JPG";
 
 class CarouselComponent extends Component {
     componentDidMount() {
-        let car = document.querySelectorAll(".carousel");
-        M.Carousel.init(car, { fullWidth: true, indicators: true});
         
+        let car = document.querySelectorAll(".carousel");
+        M.Carousel.init(car, {indicators: true, fullWidth: false, dist: 0});
+        console.log(M.Carousel);
     }
 
     nextSlide() {
@@ -28,47 +32,41 @@ class CarouselComponent extends Component {
     render() {
         return (
             <div>
-                <div className="container" style={{ width: "95vw"}}>
-                <div className="row" style={{display: "flex", position: "relative"}}>
+                
+                <div className="row" >
                         <div className="col s1" >
-                            <a onClick={this.prevSlide} style={{marginLeft: "auto",marginRight: "auto", position: "absolute", top: "50%" ,msTransform: "translateY(-50%)", transform: "translateY(-50%)",
-                            fontSize: "4vw", color: "black"}}><i class="material-icons" style={{fontSize: "4vw"}}>chevron_left</i> </a>
+                            <a onClick={this.prevSlide} style={{marginLeft: "auto",marginRight: "auto", position: "absolute", top: "50%" ,msTransform: "translateY(-50%)", transform: "translate(-50%, -50%)",
+                            fontSize: "8vmin", color: "black"}}><i class="material-icons" style={{fontSize: "8vmin"}}>chevron_left</i> </a>
                             
                         </div>
-                        <div className="col s10">
-                        <div id="carousel" class="carousel carousel-slider center" style={{height: "60vh"}}>
+                        <div className="col s10" >
+                        <div id="carousel" class="carousel carousel-slider center" style={{height: "60vmin"}}>
                             
-                            <div class="carousel-item" href="#one!">
-                            <a href="https://projectaki.github.io/hanoi_vis/" class="collection-item" >
-                            <h6 className="resp-h-size" style={{color : "black"}}>Towers of Hanoi</h6>
-                            <p className="italic-style resp-p-size" style={{color : "black", paddingLeft: "5%", margin: 0}}>
-                                This project is a visualisation of the towers of hanoi problem, with React.js!
-                            </p>
-                        </a>
+                            <div class="carousel-item" href="#one!" >
+                                <a href="https://projectaki.github.io/hanoi_vis/" class="collection-item" >
+                                    <img src={HanoiImg} style={{width: "30vmin", height: "30vmin", position: "absolute", top: "50%", transform: "translate(-50%,-50%)",paddingBottom: "5vmin"}}></img>
+                                    <label style={{left: "50%" ,transform: "translateX(-50%)", position: "absolute", fontSize: "3vmin"}}>Towers of Hanoi</label>
+                                </a>
                             
                             </div>
                             <div class="carousel-item" href="#two!">
-                            <a href="https://projectaki.github.io/sorting_vis/" class="collection-item" >
-                            <h6 className="resp-h-size" style={{color : "black"}}>Sorting visualiser:</h6>
-                            <p className="italic-style resp-p-size" style={{color : "black", paddingLeft: "5%", margin: 0}}>
-                                This project visualises different sorting algorithms, using React.js!
-                            </p>
-                        </a>
+                                <a href="https://projectaki.github.io/sorting_vis/" class="collection-item" >
+                                    <img src={SortImg} style={{width: "30vmin", height: "30vmin", position: "absolute", top: "50%", transform: "translate(-50%,-50%)"}}></img>
+                                    <label style={{left: "50%" ,transform: "translateX(-50%)", position: "absolute", fontSize: "3vmin"}}>Sorting visualiser</label>
+                                </a>
                             </div>
                             <div class="carousel-item" href="#three!">
-                            <a href="https://projectaki.github.io/pathfinder/" class="collection-item" >
-                            <h6 className="resp-h-size" style={{color : "black"}}>Pathfinder visualiser:</h6>
-                            <p className="italic-style resp-p-size" style={{color : "black", paddingLeft: "5%", margin: 0}}>
-                                This project visualises different pathfinding algorithms using React.js!
-                            </p>
-                        </a>
+                                <a href="https://projectaki.github.io/pathfinder/" class="collection-item" >
+                                    <img src={PathImg} style={{width: "30vmin", height: "30vmin", position: "absolute", top: "50%", transform: "translate(-50%,-50%)"}}></img>
+                                    <label style={{left: "50%" ,transform: "translateX(-50%)", position: "absolute", fontSize: "3vmin"}}>Pathfinding</label>
+                                </a>
                             </div>
                             
                         </div>
                         </div>
                         <div className="col s1" >
-                            <a onClick={this.nextSlide} style={{marginLeft: "auto",marginRight: "auto", position: "absolute", top: "50%" ,msTransform: "translateY(-50%)", transform: "translateY(-50%)",
-                            fontSize: "4vw", color: "black"}}><i class="material-icons" style={{fontSize: "4vw"}}>chevron_right</i></a>
+                            <a onClick={this.nextSlide} style={{marginLeft: "auto",marginRight: "auto", position: "absolute", top: "50%" ,msTransform: "translateY(-50%)", transform: "translate(-50%, -50%)",
+                            fontSize: "8vmin", color: "black"}}><i class="material-icons" style={{fontSize: "8vmin"}}>chevron_right</i></a>
                                 
                             
                         
@@ -76,7 +74,7 @@ class CarouselComponent extends Component {
                         
                     </div>
                 
-                </div>
+                
                 
   
   

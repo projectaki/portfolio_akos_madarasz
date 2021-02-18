@@ -13,23 +13,23 @@ html, body {
 }
 
 .resp-p-size {
-  font-size: 1.1vw;
+  font-size: 3vmin;
   font-family: roboto Slab;
   color: #E6F2F3;
   padding-bottom: 2vh;
 }
 
 .resp-h-size {
-  font-size: 2vw;
+  font-size: 6vmin;
   padding: 1%;
   margin: 0;
   padding-bottom: 1vh;
-  font-family: roboto Slab;
+  font-family: sans-serif;
   padding-left: 0;
 }
 
 .resp-h6 {
-  font-size: 1.3vw;
+  font-size: 3vmin;
   margin: 0;
   color: #434A4B;
   padding-bottom: 1vh;
@@ -145,6 +145,12 @@ body {
   
 }
 
+.project-back {
+  height: 100vh;
+  background-color: beige;
+  text-align: center;
+}
+
 .center-section  {
   position: absolute;
   top: 50%;
@@ -156,20 +162,32 @@ body {
   font-size: calc(1rem + 3vw);
 }
 
-html {
+body {
   scroll-behavior: smooth;
+  background: url("./images/mountain2.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    
 }
 
 .padding-profile {
-  padding-left: 30vw;
-  padding-right: 30vw;
+  padding-left: 20vw;
+  padding-right: 20vw;
 }
 
+.screen-p {
+  font-size: 3vmin;
+  text-align: justify;
+}
 @media screen and (max-width: 479px){
   .padding-profile {
     padding-left: 10vw;
     padding-right: 10vw;
   }
+
+  
+  
 }
-
-

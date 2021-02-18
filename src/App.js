@@ -23,9 +23,8 @@ function App() {
         <Switch>
           
           <Route path="/Projects" component = {Projects}/>
-          <Route path="/Profile" component = {Test}/>
+          <Route path="/Profile" component = {Profile}/>
           <Route path="/CarouselComponent" component = {CarouselComponent}/>
-          <Route path="/test" component = {Test}/>
         </Switch>
       </>
       
