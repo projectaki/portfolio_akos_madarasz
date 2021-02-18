@@ -5,7 +5,7 @@ class Education extends Component {
         return (
             <div>
                 
-                        <h5 className="bold-style resp-h-size" style={{"color": "black", paddingLeft: 0, paddingBottom: "5vh"}}>&lt;Education&gt;</h5>
+                        <h5 className="bold-style resp-h-size" style={{"color": "#E4ED20", paddingLeft: 0, paddingBottom: "5vh"}}>&lt;Education&gt;</h5>
                         <div style={{paddingLeft: "1vw", paddingRight:"1vw", textAlign: "justify"}}>
                             <p className="resp-p-size bold-style" style={{color: "black"}}>
                                 University College of Northern Denmark - Bachelor`s degree in Software Development (2020 February -, Aalborg)

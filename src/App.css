@@ -138,7 +138,7 @@ body {
 
 
 .scroll {
-  border-bottom: 0.5vh solid white;
+  
   padding: 1rem;
   height: 100vh;
   text-align: center;
@@ -165,7 +165,7 @@ body {
 
 body {
   scroll-behavior: smooth;
-  background: url("./images/mountain2.jpg") no-repeat center center fixed;
+  background: url("./images/synth.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -263,4 +263,25 @@ section.is-visible span {
   line-height: 200px;
   font-size: 80px;
   color: white;
+}
+
+@keyframes logofloat {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.logofloatdown {
+  transform: translateY(0px);
+  animation: logofloat 6s ease-in-out infinite;
+}
+
+.home-back {
+  background-color: #50565B;
 }

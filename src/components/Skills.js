@@ -5,7 +5,7 @@ class Skills extends Component {
         return (
             <div>
                 
-                        <h5 className="bold-style text-darken-4 resp-h-size" style={{paddingBottom: "5vh", color: "beige"}}>
+                        <h5 className="bold-style text-darken-4 resp-h-size" style={{paddingBottom: "15vh", color: "#E4ED20"}}>
                             &lt;Skills&gt;
                         </h5>
                         <div className="container" style={{width: "18vmin"}}>

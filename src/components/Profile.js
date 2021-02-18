@@ -38,22 +38,22 @@ class Profile extends Component {
         return (
             <div>
                 <div className="scrollcont">
-                    <section className="scroll padding-profile" style={{backgroundColor: "beige", paddingTop: "10vmin", paddingBottom: "auto"}}>
+                    <section className="scroll padding-profile grey darken-1" style={{backgroundColor: "beige", paddingTop: "10vmin", paddingBottom: "auto"}}>
                     <Description/>
                     </section>
-                    <section className="scroll padding-profile" id="sec2" style={{backgroundColor: "grey", paddingTop: "10vmin"}}>
+                    <section className="scroll padding-profile grey darken-2" id="sec2" style={{backgroundColor: "grey", paddingTop: "10vmin"}}>
                         <Work/>
                     </section>
-                    <section className="scroll padding-profile" style={{backgroundColor: "beige",  paddingTop: "10vh"}}>
+                    <section className="scroll padding-profile grey darken-1" style={{backgroundColor: "beige",  paddingTop: "10vh"}}>
                         <Education/>
                     </section>
                     
-                    <section className="scroll padding-profile" style={{backgroundColor: "grey",  paddingTop: "10vh"}}>
+                    <section className="scroll padding-profile grey darken-2" style={{backgroundColor: "grey",  paddingTop: "10vh"}}>
                         <Skills/>
                     </section>
-                    <section className="scroll padding-profile" style={{backgroundColor: "beige",  paddingTop: "10vh"}}>
+                    <section className="scroll padding-profile grey darken-1" style={{backgroundColor: "beige",  paddingTop: "10vh"}}>
                         
-                        <h5 className="bold-style resp-h-size" style={{"color": "black", paddingLeft: 0, paddingBottom: "5vh"}}>&lt;Contributions&gt;</h5>
+                        <h5 className="bold-style resp-h-size" style={{"color": "#E4ED20", paddingLeft: 0, paddingBottom: "5vh"}}>&lt;Contributions&gt;</h5>
                         <h6 className="resp-h6" style={{paddingLeft: 0, color: "black"}}>
                                     Research paper:
                                 </h6>
@@ -63,8 +63,8 @@ class Profile extends Component {
                                     </p>
                                 </a>
                     </section>
-                    <section className="scroll padding-profile" style={{backgroundColor: "grey",  paddingTop: "10vh"}}>
-                        <h5 className="bold-style resp-h-size" style={{"color": "beige", paddingLeft: 0, paddingBottom: "5vh"}}>&lt;More about me&gt;</h5>
+                    <section className="scroll padding-profile grey darken-2" style={{backgroundColor: "grey",  paddingTop: "10vh"}}>
+                        <h5 className="bold-style resp-h-size" style={{"color": "#E4ED20", paddingLeft: 0, paddingBottom: "5vh"}}>&lt;More about me&gt;</h5>
                         <Picture/>
                     </section>
                     

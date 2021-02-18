@@ -22,8 +22,8 @@ class ProjectCarousel extends Component {
             <div>
                 
                 <Carousel 
-                arrowLeft={<i style={{color: "black"}} className="fas fa-chevron-left fa-3x"></i>} 
-                arrowRight={<i style={{color: "black"}} class="fas fa-chevron-right fa-3x" ></i>} 
+                arrowLeft={<i style={{color: "#E4ED20"}} className="fas fa-chevron-left fa-3x"></i>} 
+                arrowRight={<i style={{color: "#E4ED20"}} class="fas fa-chevron-right fa-3x" ></i>} 
                 addArrowClickHandler
                 slidesPerPage={1}
                 clickToChange

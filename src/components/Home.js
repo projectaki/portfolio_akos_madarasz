@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
-import Footer from './Footer';
-import {HashLink as Link} from 'react-router-hash-link';
-import Parallax from './Parallax';
-import Img from '../images/mountain2.jpg';
+
 class Home extends Component {
     
     render() {

@@ -12,35 +12,35 @@ class Navbar extends Component {
     render() {
         return (
             <>
-                <nav class="nav-center grey darken-3" role="navigation">
+                <nav class="nav-center grey darken-4" role="navigation">
                     <div class="nav-wrapper container">
                         <Link to="/" data-target="slide-out" className="sidenav-trigger">
                             <i className="material-icons">menu</i>
                         </Link>
                         <ul id="nav-mobile" class="hide-on-med-and-down">
-                            <li>
-                                <Link to="/">Home</Link>
+                            <li style={{fontFamily: "sans-serif"}} className="bold-style">
+                                <Link style={{color:"#34F9F1", fontSize:"2.5vmin"}} to="/">Home</Link>
                                 
                             </li>
-                            <li>
-                                <Link to="/Profile">About</Link>
+                            <li style={{fontFamily: "sans-serif"}} className="bold-style">
+                                <Link style={{color:"#34F9F1", fontSize:"2.5vmin"}} to="/Profile">About</Link>
                             </li>
-                            <li>
-                                <Link to="/Projects">Projects</Link>
+                            <li style={{fontFamily: "sans-serif"}} className="bold-style">
+                                <Link style={{color:"#34F9F1", fontSize:"2.5vmin"}} to="/Projects">Projects</Link>
                             </li>
                         </ul>
                     </div>
                 </nav>
 
-                <ul id="slide-out" class="sidenav grey darken-3">
-                    <li className="sidenav-close" >
+                <ul id="slide-out" class="sidenav grey darken-3" style={{width: "100%"}}>
+                    <li className="sidenav-close" style={{position: "absolute", left: "50%", transform: "translateX(-55%)"}}>
                         <Link to="/" style={{color: "white"}}>Home</Link>
                         
                     </li>
-                    <li className="sidenav-close">
+                    <li className="sidenav-close" style={{position: "absolute", left: "50%",top:"10%", transform: "translateX(-55%)"}}>
                         <Link to="/Profile" style={{color: "white"}}>Profile</Link>
                     </li>
-                    <li className="sidenav-close">
+                    <li className="sidenav-close" style={{position: "absolute", left: "50%", top:"20%", transform: "translateX(-55%)"}}>
                         <Link to="/Projects" style={{color: "white"}}>Projects</Link>
                     </li>
                 </ul>

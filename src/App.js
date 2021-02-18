@@ -8,7 +8,8 @@ import Home from './components/Home';
 import Navbar from './components/Navbar';
 import CarouselComponent from './components/CarouselComponent';
 import Test from "./components/Test";
-
+import FrontPage from "./components/FrontPage";
+import Footer from './components/Footer';
 
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
     
     <Navbar/>
       <>
-        <Route exact path = "/" component={Home}/>
+        <Route exact path = "/" component={FrontPage}/>
         <Switch>
           
           <Route path="/Projects" component = {Projects}/>
@@ -30,6 +31,7 @@ function App() {
       </>
       
     </HashRouter>
+    
 
 
 
