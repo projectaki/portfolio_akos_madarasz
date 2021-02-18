@@ -191,3 +191,50 @@ body {
   
   
 }
+
+.scrollcont {
+  height: 91vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+section {
+  height: 91vh;
+  scroll-snap-align: start;
+}
+
+section h5 {
+  opacity: 0;
+  transition: opacity 1000ms;
+}
+
+section.is-visible h5 {
+  opacity: 1;
+}
+
+section h6 {
+  opacity: 0;
+  transition: opacity 1000ms;
+}
+
+section.is-visible h6 {
+  opacity: 1;
+}
+
+section p {
+  opacity: 0;
+  transition: opacity 1000ms;
+}
+
+section.is-visible p {
+  opacity: 1;
+}
+
+section span {
+  opacity: 0;
+  transition: opacity 1000ms;
+}
+
+section.is-visible span {
+  opacity: 1;
+}

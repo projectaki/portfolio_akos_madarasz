@@ -7,6 +7,33 @@ import Education from './Education';
 
 
 class Profile extends Component {
+    componentDidMount() {
+        // Observer for fading
+        const sections = [...document.querySelectorAll('section')];
+
+        const options = {
+        rootMargin: '0px',
+        threshold: 0.40
+        };
+
+        const callback = (entries, observer) => {
+        entries.forEach((entry) => {
+            const {target} = entry;
+            if (entry.intersectionRatio >= 0.40) {
+            target.classList.add("is-visible");
+            } else {
+            target.classList.remove("is-visible");
+            }
+        });
+        };
+
+        const observer = new IntersectionObserver(callback, options)
+
+        sections.forEach((section, index) => {
+        observer.observe(section)
+        });
+    }
+    
     render() {
         return (
             <div>
