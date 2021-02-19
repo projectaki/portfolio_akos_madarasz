@@ -6,26 +6,26 @@ class Work extends Component {
             <div>
                 
                         
-                            <h5 className=" resp-h-size " style={{"color": "black", paddingLeft: 0, paddingBottom: "5vh"}}>Work Experience</h5>
+                            <h5 className=" resp-h-size " style={{"color": "#fa5597", paddingLeft: 0, paddingBottom: "5vh"}}>Work Experience</h5>
                             <div style={{paddingLeft: "1vw", paddingRight:"1vw", textAlign: "justify"}}>
-                            <h6 className="resp-h6 bold-style" style={{paddingLeft: 0, color: "#E4ED20"}}>
+                            <h6 className="resp-h6 bold-style" style={{paddingLeft: 0, color: "#66FCF1"}}>
                                     &lt;University College of Northern Denmark&gt;
                                 </h6>
-                                <h6 className="resp-h6 italic-style " style={{paddingLeft: 0,color: "#E4ED20"}}>
+                                <h6 className="resp-h6 italic-style " style={{paddingLeft: 0,color: "#66FCF1"}}>
                                     September 2020 - Part-time student programmer
                                 </h6>
                                 <p className="resp-p-size " >
                                     Tool for processing and transforming data efficiently, designing for a scalable architecture. Predictions based on historic and live data as well as machine learning models.
                                 </p>
                                 
-                                <h6 className="resp-h6 bold-style " style={{paddingLeft: 0, color: "#E4ED20"}}>
+                                <h6 className="resp-h6 bold-style " style={{paddingLeft: 0, color: "#66FCF1"}}>
                                     &lt;Dolle A/S&gt;
                                 </h6>
-                                <h6 className="resp-h6 italic-style " style={{paddingLeft: 0, color: "#E4ED20"}}>
+                                <h6 className="resp-h6 italic-style " style={{paddingLeft: 0, color: "#66FCF1"}}>
                                     October 2019 – December 2019 | Data analyst
 
                                 </h6>
-                                <h6 className="resp-h6 italic-style " style={{paddingLeft: 0, color: "#E4ED20"}}>
+                                <h6 className="resp-h6 italic-style " style={{paddingLeft: 0, color: "#66FCF1"}}>
                                     August 2019 – October 2019 | Data analyst Intern
                                 </h6>
                                 <p className="resp-p-size " >

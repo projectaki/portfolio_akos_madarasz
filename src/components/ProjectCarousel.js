@@ -31,32 +31,35 @@ class ProjectCarousel extends Component {
                 value={this.state.value}
                 onChange={this.onChange}
                 >
-                    <div style={{textAlign: "center"}}>
+                    <div style={{textAlign: "center"}} >
                     <a href="https://projectaki.github.io/pathfinder/" class="collection-item" >
-                        <img src={Img} style={{height: "40vmin", width: "50vmin"}}/>
+                        <img src={Img} style={{height: "40vmin", width: "50vmin"}} className="floatingdown"/>
                     </a>
                         
-                        <h5 style={{color: "#543D07", paddingTop: "5vmin"}} className="resp-h6 league-spartan">&lt;Pathfinder&gt;</h5>
+                        <h5 style={{color: "white", paddingTop: "5vmin"}} className="resp-h6 league-spartan">&lt;Pathfinder&gt;</h5>
                     </div>
                     <div style={{textAlign: "center"}}>
                     <a href="https://projectaki.github.io/hanoi_vis/" class="collection-item" >
-                        <img src={Img} style={{height: "40vmin", width: "50vmin"}}/>
+                        <img src={Img} style={{height: "40vmin", width: "50vmin"}} className="floatingdown"/>
                     </a>
                         
-                        <h5 style={{color: "#543D07", paddingTop: "5vmin"}} className="resp-h6 league-spartan">Towers of Hanoi</h5>
+                        <h5 style={{color: "white", paddingTop: "5vmin"}} className="resp-h6 league-spartan">Towers of Hanoi</h5>
                     </div>
                     <div style={{textAlign: "center"}}>
                     <a href="https://projectaki.github.io/sorting_vis/" class="collection-item" >
-                        <img src={Img} style={{height: "40vmin", width: "50vmin"}}/>
+                        <img src={Img} style={{height: "40vmin", width: "50vmin"}} className="floatingdown"/>
                     </a>
                         
-                        <h5 style={{color: "#543D07", paddingTop: "5vmin"}} className="resp-h6 league-spartan">Sorting Visualiser</h5>
+                        <h5 style={{color: "white", paddingTop: "5vmin"}} className="resp-h6 league-spartan">Sorting Visualiser</h5>
                     </div>
                     
                 </Carousel>
+                {/* 
                 <div style={{paddingTop: "10vmin"}}>
+                          
                     <Dots value={this.state.value} onChange={this.onChange} number={3} />
                 </div>
+                */}
                 
             </div>
         );

@@ -5,16 +5,16 @@ import {HashLink as Link} from 'react-router-hash-link';
 class Navbar extends Component {
     componentDidMount() {
         const M = window.M;
-        document.addEventListener('DOMContentLoaded', function() {
+        
             var elems = document.querySelectorAll('.sidenav');
-            var instances = M.Sidenav.init(elems, {});
-          });
+            var instances = M.Sidenav.init(elems, {inDuration: 0});
+          
     }
     
     render() {
         return (
             <>
-                <nav class="nav-center grey darken-4" role="navigation">
+                <nav class="nav-center transparent z-depth-0"  role="navigation">
                     <div class="nav-wrapper container">
                         <Link to="/" data-target="slide-out" className="sidenav-trigger">
                             <i className="material-icons">menu</i>

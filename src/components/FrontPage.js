@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import Img from "../images/logo.png";
-
+import Navbar from "./Navbar";
 
 class FrontPage extends Component {
     render() {
         return (
-            <div className="grey darken-3" style={{height: ""}}>
+            <div  >
+                <Navbar/>
                 <div style={{position: "absolute", top: "54%", left: "50%", transform: "translate(-55%, -50%)"}}>
                     <div className="logofloatdown">
                     <img src={Img} style={{height: "28vmin", width: "38vmin"}}></img>

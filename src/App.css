@@ -112,7 +112,7 @@ nav.nav-center ul li a {
 
 .floatingdown {
   transform: translateY(0px);
-  animation: floatdown 6s ease-in-out infinite;
+  animation: floatdown 3s ease-in-out infinite;
 }
 
 .floatingup {
@@ -140,7 +140,6 @@ body {
 
 .scroll {
   
-  padding: 1rem;
   height: 100vh;
   text-align: center;
   position: relative;
@@ -148,9 +147,15 @@ body {
 }
 
 .project-back {
-  height: 100vh;
-  background-color: #C89F1E;
   text-align: center;
+  height: 100vh;
+  scroll-snap-align: end;
+  background: url("./images/galaxytree.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
 }
 
 .center-section  {
@@ -222,9 +227,18 @@ body {
   scroll-snap-type: y mandatory;
 }
 
+
+
 section {
   height: 100vh;
   scroll-snap-align: end;
+  background: url("./images/nightsky.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+
 }
 
 section h5 {
