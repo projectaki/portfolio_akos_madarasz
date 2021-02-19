@@ -20,14 +20,14 @@ class Navbar extends Component {
                             <i className="material-icons">menu</i>
                         </Link>
                         <ul id="nav-mobile" class="hide-on-med-and-down">
-                            <li  className="league-spartan">
+                            <li  style={{fontFamily: "League Spartan"}}>
                                 <Link style={{color:"#E4ED20", fontSize:"2.5vmin"}} to="/">Home</Link>
                                 
                             </li>
-                            <li className="league-spartan">
+                            <li  style={{fontFamily: "League Spartan"}}>
                                 <Link style={{color:"#E4ED20", fontSize:"2.5vmin"}} to="/Profile">About</Link>
                             </li>
-                            <li  className="league-spartan">
+                            <li  style={{fontFamily: "League Spartan"}}>
                                 <Link style={{color:"#E4ED20", fontSize:"2.5vmin"}} to="/Projects">Projects</Link>
                             </li>
                         </ul>

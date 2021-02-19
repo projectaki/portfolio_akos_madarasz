@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Carousel, { Dots } from '@brainhubeu/react-carousel';
 import '@brainhubeu/react-carousel/lib/style.css';
-import Img from "../images/folder.png";
+import Img from "../images/box.png";
 
 
 class ProjectCarousel extends Component {
@@ -21,8 +21,8 @@ class ProjectCarousel extends Component {
             <div>
                 
                 <Carousel 
-                arrowLeft={<i style={{color: "#40a0e0"}} className="fas fa-chevron-left fa-3x"></i>} 
-                arrowRight={<i style={{color: "#40a0e0"}} class="fas fa-chevron-right fa-3x" ></i>} 
+                arrowLeft={<i style={{color: "black"}} className="fas fa-chevron-left fa-3x"></i>} 
+                arrowRight={<i style={{color: "black"}} class="fas fa-chevron-right fa-3x" ></i>} 
                 addArrowClickHandler
                 slidesPerPage={1}
                 clickToChange
@@ -33,24 +33,24 @@ class ProjectCarousel extends Component {
                 >
                     <div style={{textAlign: "center"}}>
                     <a href="https://projectaki.github.io/pathfinder/" class="collection-item" >
-                        <img src={Img} style={{height: "30vmin", width: "30vmin"}}/>
+                        <img src={Img} style={{height: "40vmin", width: "50vmin"}}/>
                     </a>
                         
-                        <h5 style={{color: "#40a0e0", paddingTop: "5vmin"}} className="resp-h6 league-spartan">Pathfinder</h5>
+                        <h5 style={{color: "#543D07", paddingTop: "5vmin"}} className="resp-h6 league-spartan">&lt;Pathfinder&gt;</h5>
                     </div>
                     <div style={{textAlign: "center"}}>
                     <a href="https://projectaki.github.io/hanoi_vis/" class="collection-item" >
-                        <img src={Img} style={{height: "30vmin", width: "30vmin"}}/>
+                        <img src={Img} style={{height: "40vmin", width: "50vmin"}}/>
                     </a>
                         
-                        <h5 style={{color: "#40a0e0", paddingTop: "5vmin"}} className="resp-h6 league-spartan">Towers of Hanoi</h5>
+                        <h5 style={{color: "#543D07", paddingTop: "5vmin"}} className="resp-h6 league-spartan">Towers of Hanoi</h5>
                     </div>
                     <div style={{textAlign: "center"}}>
                     <a href="https://projectaki.github.io/sorting_vis/" class="collection-item" >
-                        <img src={Img} style={{height: "30vmin", width: "30vmin"}}/>
+                        <img src={Img} style={{height: "40vmin", width: "50vmin"}}/>
                     </a>
                         
-                        <h5 style={{color: "#40a0e0", paddingTop: "5vmin"}} className="resp-h6 league-spartan">Sorting Visualiser</h5>
+                        <h5 style={{color: "#543D07", paddingTop: "5vmin"}} className="resp-h6 league-spartan">Sorting Visualiser</h5>
                     </div>
                     
                 </Carousel>

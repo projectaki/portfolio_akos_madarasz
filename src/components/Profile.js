@@ -38,21 +38,21 @@ class Profile extends Component {
         return (
             <div>
                 <div className="scrollcont">
-                    <section className="scroll padding-profile" style={{backgroundColor: "#26867c", paddingTop: "5vmin", paddingBottom: "auto"}}>
+                    <section className="scroll padding-profile" style={{backgroundColor: "#1B5F92", paddingTop: "5vmin", paddingBottom: "auto"}}>
                         <Description/>
                         <Skills/>
                     </section>
-                    <section className="scroll padding-profile grey darken-2" id="sec2" style={{backgroundColor: "grey", paddingTop: "5vmin", paddingBottom: "15vmin"}}>
+                    <section className="scroll padding-profile" id="sec2" style={{backgroundColor: "#55514C", paddingTop: "5vmin", paddingBottom: "15vmin"}}>
                         <Work/>
                     </section>
-                    <section className="scroll padding-profile" style={{backgroundColor: "#26867c",  paddingTop: "5vmin"}}>
+                    <section className="scroll padding-profile" style={{backgroundColor: "#1B5F92",  paddingTop: "5vmin"}}>
                         <Education/>
                     </section>
 
-                    <section className="scroll padding-profile grey darken-2" style={{backgroundColor: "beige",  paddingTop: "5vmin"}}>
-                    <h5 className="bold-style resp-h-size league-spartan" style={{"color": "#E4ED20", paddingLeft: 0, paddingBottom: "5vh"}}>&lt;More about me&gt;</h5>
+                    <section className="scroll padding-profile " style={{backgroundColor: "#55514C",  paddingTop: "5vmin"}}>
+                    <h5 className="bold-style resp-h-size league-spartan" style={{"color": "black", paddingLeft: 0, paddingBottom: "5vh"}}>&lt;More about me&gt;</h5>
                         
-                        <h5 className="bold-style resp-h-size league-spartan" style={{color: "#40a0e0", paddingLeft: 0, paddingBottom: "5vh"}}>&lt;Contributions&gt;</h5>
+                        <h5 className="bold-style resp-h-size league-spartan" style={{color: "#E4ED20", paddingLeft: 0, paddingBottom: "5vh"}}>&lt;Contributions&gt;</h5>
                         <h6 className="resp-h6 league-spartan" style={{paddingLeft: 0, color: "black"}}>
                                     Research paper:
                                 </h6>

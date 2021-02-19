@@ -1,6 +1,7 @@
 html, body {
   height: 100%;
   overflow: hidden;
+  
 }
 
 .flex-container {
@@ -15,7 +16,7 @@ html, body {
 
 .resp-p-size {
   font-size: 2.5vmin;
-  font-family: roboto Slab;
+  
   color: #E6F2F3;
   padding-bottom: 2vh;
 }
@@ -25,7 +26,7 @@ html, body {
   padding: 1%;
   margin: 0;
   padding-bottom: 1vh;
-  font-family: sans-serif;
+  font-family: League Spartan;
   padding-left: 0;
 }
 
@@ -148,7 +149,7 @@ body {
 
 .project-back {
   height: 100vh;
-  background-color: #26867c;
+  background-color: #C89F1E;
   text-align: center;
 }
 
@@ -308,6 +309,18 @@ section.is-visible span {
   background-color: #50565B;
 }
 
-.league-spartan {
-  font-family: "League Spartan", sans-serif;
+
+.text-border-white {
+  text-shadow: -0.1vmin 0 white, 0 0.1vmin white, 0.1vmin 0 white, 0 -0.1vmin white;
+}
+
+
+
+.text-border-black {
+  text-shadow: -0.1vmin 0 black, 0 0.1vmin black, 0.1vmin 0 black, 0 -0.1vmin black;
+}
+
+@font-face {
+  font-family: League Spartan;
+  src: url("./font/LeagueSpartan-Bold.otf");
 }
