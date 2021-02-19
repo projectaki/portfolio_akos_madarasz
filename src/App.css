@@ -14,7 +14,7 @@ html, body {
 }
 
 .resp-p-size {
-  font-size: 3vmin;
+  font-size: 2.5vmin;
   font-family: roboto Slab;
   color: #E6F2F3;
   padding-bottom: 2vh;
@@ -148,7 +148,7 @@ body {
 
 .project-back {
   height: 100vh;
-  background-color: beige;
+  background-color: #26867c;
   text-align: center;
 }
 
@@ -183,13 +183,35 @@ body {
   font-size: 3vmin;
   text-align: justify;
 }
+
+.contact-positions {
+  position: absolute;
+  top: 65%;
+  left: 93%; 
+  transform: translate(-65%, -93%); 
+  display: flex;
+}
+
 @media screen and (max-width: 479px){
   .padding-profile {
-    padding-left: 10vw;
-    padding-right: 10vw;
+    padding-left: 15vw;
+    padding-right: 15vw;
   }
 
+  .resp-p-size {
+    font-size: 3vmin;
+    font-family: roboto Slab;
+    color: #E6F2F3;
+    padding-bottom: 2vh;
+  }
   
+  .contact-positions {
+    position: absolute;
+    top: 20%;
+    left: 85%; 
+    
+    display: flex;
+  }
   
 }
 
@@ -201,7 +223,7 @@ body {
 
 section {
   height: 100vh;
-  scroll-snap-align: start;
+  scroll-snap-align: end;
 }
 
 section h5 {
@@ -284,4 +306,8 @@ section.is-visible span {
 
 .home-back {
   background-color: #50565B;
+}
+
+.league-spartan {
+  font-family: "League Spartan", sans-serif;
 }

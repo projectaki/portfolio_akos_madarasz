@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import {HashLink as Link} from 'react-router-hash-link';
+
+
 class Navbar extends Component {
     componentDidMount() {
         const M = window.M;
@@ -18,15 +20,15 @@ class Navbar extends Component {
                             <i className="material-icons">menu</i>
                         </Link>
                         <ul id="nav-mobile" class="hide-on-med-and-down">
-                            <li style={{fontFamily: "sans-serif"}} className="bold-style">
-                                <Link style={{color:"#34F9F1", fontSize:"2.5vmin"}} to="/">Home</Link>
+                            <li  className="league-spartan">
+                                <Link style={{color:"#E4ED20", fontSize:"2.5vmin"}} to="/">Home</Link>
                                 
                             </li>
-                            <li style={{fontFamily: "sans-serif"}} className="bold-style">
-                                <Link style={{color:"#34F9F1", fontSize:"2.5vmin"}} to="/Profile">About</Link>
+                            <li className="league-spartan">
+                                <Link style={{color:"#E4ED20", fontSize:"2.5vmin"}} to="/Profile">About</Link>
                             </li>
-                            <li style={{fontFamily: "sans-serif"}} className="bold-style">
-                                <Link style={{color:"#34F9F1", fontSize:"2.5vmin"}} to="/Projects">Projects</Link>
+                            <li  className="league-spartan">
+                                <Link style={{color:"#E4ED20", fontSize:"2.5vmin"}} to="/Projects">Projects</Link>
                             </li>
                         </ul>
                     </div>
