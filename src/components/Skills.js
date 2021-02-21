@@ -5,8 +5,8 @@ class Skills extends Component {
         return (
             <div>
                 
-                        <h6 className="bold-style league-spartan text-border" style={{paddingTop:"5vmin", paddingBottom: "8vh", color: "#66FCF1", fontSize: "4vmin"}}>
-                            &lt;Skills&gt;
+                        <h6 className="" style={{paddingTop:"5vmin", paddingBottom: "8vh", color: "#66FCF1", fontSize: "4vmin", fontFamily: "League Spartan"}}>
+                            Skills
                         </h6>
                         <div style={{width: "100%", height: "10vh"}} >
                             <div style={{margin: "0 auto", width: "80%"}}>

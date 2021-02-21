@@ -5,7 +5,7 @@ class Education extends Component {
         return (
             <div>
                 
-                        <h5 className="bold-style resp-h-size league-spartan" style={{"color": "#fa5597", paddingLeft: 0, paddingBottom: "5vh"}}>&lt;Education&gt;</h5>
+                        <h5 className="bold-style resp-h-size league-spartan" style={{"color": "#fa5597", paddingLeft: 0, paddingBottom: "5vh"}}>Education</h5>
                         <div style={{paddingLeft: "1vw", paddingRight:"1vw", textAlign: "justify"}}>
                             
                             <h6 className="resp-h6 bold-style league-spartan" style={{paddingLeft: 0, color: "#66FCF1", paddingBottom:"2vmin"}}>

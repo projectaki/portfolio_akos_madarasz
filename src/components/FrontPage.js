@@ -5,7 +5,7 @@ import Navbar from "./Navbar";
 class FrontPage extends Component {
     render() {
         return (
-            <div  >
+            <div  className="frontpage-background">
                 <Navbar/>
                 <div style={{position: "absolute", top: "54%", left: "50%", transform: "translate(-55%, -50%)"}}>
                     <div className="logofloatdown">

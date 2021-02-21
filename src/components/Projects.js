@@ -6,7 +6,7 @@ class Projects extends Component {
         return (
             <div className=" project-back">
                 <Navbar/>
-                <div className="container" style={{paddingTop: "15vmin"}}>
+                <div className="container" style={{paddingTop: "37vmin"}}>
                 <ProjectCarousel/>   
                 </div>
                 

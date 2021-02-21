@@ -34,7 +34,7 @@ class Navbar extends Component {
                     </div>
                 </nav>
 
-                <ul id="slide-out" class="sidenav grey darken-3" style={{width: "100%"}}>
+                <ul id="slide-out" class="sidenav grey darken-3">
                     <li className="sidenav-close" style={{position: "absolute", left: "50%", transform: "translateX(-55%)"}}>
                         <Link to="/" style={{color: "white"}}>Home</Link>
                         
