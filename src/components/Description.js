@@ -10,11 +10,14 @@ class Description extends Component {
         let cvlink = document.getElementById("modal1");
         var instance = M.Modal.getInstance(cvlink);
         instance.open();
+        
     }
+
+    
     
     render() {
         return (
-            <div>  
+            <div >  
                 <h5 className=" resp-h-size text-border" style={{"color": "#fa5597", paddingLeft: 0, paddingBottom: "5vh", paddingTop: "10vmin"}}>Profile</h5>
                 <div style={{paddingLeft: "1vw", paddingRight:"1vw", textAlign: "justify"}}>
                     <p className="resp-p-size text-border-text" style={{ color: "white"}}>
@@ -26,7 +29,7 @@ class Description extends Component {
                     </p>
                     
                 </div>
-                <div id="modal1" class="modal nav-back" style={{border: "0.1vmin solid white"}}>
+                <div id="modal1" class="modal nav-back" style={{border: "0.1vmin solid white"}} >
                     <div class="modal-content">
                     <h4 style={{fontFamily: "League Spartan", fontSize: "4vmin",color: "white"}}>View my CV</h4>
                     <p style={{fontSize: "3vmin",color: "white"}}>If you want to view the raw CV you can open it through the following link! It is also available for viewing in the last

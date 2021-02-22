@@ -5,6 +5,7 @@ import Skills from './Skills';
 import CV from "../pdfs/CV_Akos_Madarasz.pdf";
 import Education from './Education';
 import Navbar from "./Navbar";
+import BackgroundImg from "../images/nightsky.jpg";
 
 
 class Profile extends Component {
@@ -33,11 +34,13 @@ class Profile extends Component {
         sections.forEach((section, index) => {
         observer.observe(section)
         });
+
     }
+
     
     render() {
         return (
-            <div className="nav-back">
+            <div className="nav-back" /*style={{backgroundImage: `url(${BackgroundImg})`}}*/>
                 <div >
                 <Navbar/>
                 </div>
@@ -58,7 +61,13 @@ class Profile extends Component {
 
                     <section className="scroll padding-profile " style={{ paddingTop: "5vmin"}}>
                     <h5 className="bold-style resp-h-size league-spartan" style={{"color": "#fa5597", paddingLeft: 0, paddingBottom: "5vh"}}>More about me</h5>
-                        
+                        <p className="resp-p-size" style={{textAlign: "justify"}}>
+                        Hi, I am Akos!
+                        I am a software developer. I like to create programming projects in my free time and I find it very fun. I am mostly interested in algorithms,
+                        and I have always loved mathematics and problem solving. I prefer backend
+                            development, but I have recently got into frontend to create visualisations for some of my projects and to my suprise I enjoyed the process! I plan on
+                            continously extending my portfolio with new projects as time goes, as I very much enjoy combining backend algorithms with frontend visualisation.
+                        </p>
                         <h5 className="" style={{color: "#66FCF1", paddingLeft: 0, paddingBottom: "5vh", fontFamily: "League Spartan", fontSize: "4vmin"}}>&lt;Contributions&gt;</h5>
                         <h6 className="resp-h6 " style={{paddingLeft: 0, color: "#66FCF1"}}>
                                     Research paper:
