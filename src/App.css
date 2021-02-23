@@ -1,7 +1,10 @@
-html, body {
-  height: 100%;
-  overflow: hidden;
-  
+body {
+min-height: 100vh;
+min-height: -webkit-fill-available;
+}
+
+html {
+  height: -webkit-fill-available;
 }
 
 .flex-container {
@@ -241,7 +244,7 @@ nav.nav-center ul li a {
 section {
   height: 100vh;
   scroll-snap-align: end;
-
+  padding-top: 15vh;
 }
 
 section h5 {
