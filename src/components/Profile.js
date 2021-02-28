@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import Description from './Description';
 import Work from './Work';
+import Work2 from './Work2';
 import Skills from './Skills';
 import CV from "../pdfs/CV_Akos_Madarasz.pdf";
 import Education from './Education';
 import Navbar from "./Navbar";
-import BackgroundImg from "../images/nightsky.jpg";
+
 
 
 class Profile extends Component {
@@ -55,6 +56,9 @@ class Profile extends Component {
                 </section>
                 <section className="scroll padding-profile" id="sec2" style={{ paddingBottom: "15vmin"}}>
                     <Work/>
+                </section>
+                <section className="scroll padding-profile" id="sec2" style={{ paddingBottom: "15vmin"}}>
+                    <Work2/>
                 </section>
                 <section className="scroll padding-profile" >
                     <Education/>

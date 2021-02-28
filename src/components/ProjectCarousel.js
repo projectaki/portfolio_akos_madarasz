@@ -32,7 +32,7 @@ class ProjectCarousel extends Component {
                 onChange={this.onChange}
                 >
                     <div style={{textAlign: "center"}} >
-                    <h5 style={{color: "#E4ED20", paddingBottom: "5vmin", fontFamily: "League Spartan"}} className="resp-h6 text-border-black">&lt;Pathfinder&gt;</h5>
+                    <h5 style={{color: "#E4ED20", paddingTop: "1vmin", fontFamily: "League Spartan"}} className="resp-h6 text-border-black">&lt;Pathfinder&gt;</h5>
                     <a href="https://projectaki.github.io/pathfinder/" class="collection-item" >
                         <img src={Img} style={{height: "40vmin", width: "50vmin"}} className="floatingup"/>
                     </a>
@@ -40,7 +40,7 @@ class ProjectCarousel extends Component {
                         
                     </div>
                     <div style={{textAlign: "center"}}>
-                    <h5 style={{color: "#E4ED20", fontFamily: "League Spartan"}} className="resp-h6 text-border-black">Towers of Hanoi</h5>
+                    <h5 style={{color: "#E4ED20", paddingTop: "1vmin", fontFamily: "League Spartan"}} className="resp-h6 text-border-black">Towers of Hanoi</h5>
                     <a href="https://projectaki.github.io/hanoi_vis/" class="collection-item" >
                         <img src={Img} style={{height: "40vmin", width: "50vmin"}} className="floatingdown"/>
                     </a>
@@ -48,7 +48,7 @@ class ProjectCarousel extends Component {
                         
                     </div>
                     <div style={{textAlign: "center"}}>
-                    <h5 style={{color: "#E4ED20", fontFamily: "League Spartan"}} className="resp-h6 text-border-black">Sorting Visualiser</h5>
+                    <h5 style={{color: "#E4ED20", paddingTop: "1vmin", fontFamily: "League Spartan"}} className="resp-h6 text-border-black">Sorting Visualiser</h5>
                     <a href="https://projectaki.github.io/sorting_vis/" class="collection-item" >
                         <img src={Img} style={{height: "40vmin", width: "50vmin"}} className="floatingdown"/>
                     </a>
