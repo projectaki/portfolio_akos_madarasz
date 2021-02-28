@@ -9,7 +9,7 @@ import FrontPage from "./components/FrontPage";
 
 function App() {
   return (
-    <HashRouter basename="/">
+    <HashRouter>
 
         <Switch>
           <Route exact path = "/" component={FrontPage}/>
