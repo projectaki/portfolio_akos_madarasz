@@ -32,25 +32,47 @@ class ProjectCarousel extends Component {
                 onChange={this.onChange}
                 >
                     <div style={{textAlign: "center"}} >
-                    <h5 style={{color: "#E4ED20", paddingTop: "1vmin", fontFamily: "League Spartan"}} className="resp-h6 text-border-black">&lt;Pathfinder&gt;</h5>
+                    
                     <a href="https://projectaki.github.io/pathfinder/" class="collection-item" >
-                        <img src={Img} style={{height: "40vmin", width: "50vmin"}} className="floatingup"/>
+                        <div style={{position:"relative", textAlign:"center"}}>
+                            <img src={Img} style={{height: "40vmin", width: "50vmin"}}/>
+                            <div style={{position: "absolute", top: "50%", left: "50%", transform: "translate(-50%,-50%)",fontFamily: "League Spartan", color: "black", fontSize:"3vmin"}}>Pathfinder</div>
+                        </div>
+                        
+                        
                     </a>
                         
                         
                     </div>
                     <div style={{textAlign: "center"}}>
-                    <h5 style={{color: "#E4ED20", paddingTop: "1vmin", fontFamily: "League Spartan"}} className="resp-h6 text-border-black">Towers of Hanoi</h5>
+                    
                     <a href="https://projectaki.github.io/hanoi_vis/" class="collection-item" >
-                        <img src={Img} style={{height: "40vmin", width: "50vmin"}} className="floatingdown"/>
+                    <div style={{position:"relative", textAlign:"center"}}>
+                            <img src={Img} style={{height: "40vmin", width: "50vmin"}}/>
+                            <div style={{position: "absolute", top: "50%", left: "50%", transform: "translate(-50%,-50%)",fontFamily: "League Spartan", color: "black", fontSize:"3vmin"}}>Towers of Hanoi</div>
+                        </div>
                     </a>
                         
                         
                     </div>
                     <div style={{textAlign: "center"}}>
-                    <h5 style={{color: "#E4ED20", paddingTop: "1vmin", fontFamily: "League Spartan"}} className="resp-h6 text-border-black">Sorting Visualiser</h5>
+                    
                     <a href="https://projectaki.github.io/sorting_vis/" class="collection-item" >
-                        <img src={Img} style={{height: "40vmin", width: "50vmin"}} className="floatingdown"/>
+                    <div style={{position:"relative", textAlign:"center"}}>
+                            <img src={Img} style={{height: "40vmin", width: "50vmin"}}/>
+                            <div style={{position: "absolute", top: "50%", left: "50%", transform: "translate(-50%,-50%)",fontFamily: "League Spartan", color: "black", fontSize:"3vmin"}}>Sorting visualiser</div>
+                        </div>
+                    </a>
+                        
+                        
+                    </div>
+                    <div style={{textAlign: "center"}}>
+                    
+                    <a href="https://projectaki.github.io/sudoku_vis/" class="collection-item" >
+                    <div style={{position:"relative", textAlign:"center"}}>
+                            <img src={Img} style={{height: "40vmin", width: "50vmin"}}/>
+                            <div style={{position: "absolute", top: "50%", left: "50%", transform: "translate(-50%,-50%)",fontFamily: "League Spartan", color: "black", fontSize:"3vmin"}}>Sudoku solver</div>
+                        </div>
                     </a>
                         
                         
