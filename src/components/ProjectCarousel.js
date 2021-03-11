@@ -77,6 +77,17 @@ class ProjectCarousel extends Component {
                         
                         
                     </div>
+                    <div style={{textAlign: "center"}}>
+                    
+                    <a href="https://spring-mongo-react.herokuapp.com/#/" class="collection-item" >
+                    <div style={{position:"relative", textAlign:"center"}}>
+                            <img src={Img} style={{height: "40vmin", width: "50vmin"}}/>
+                            <div style={{position: "absolute", top: "50%", left: "50%", transform: "translate(-50%,-50%)",fontFamily: "League Spartan", color: "black", fontSize:"3vmin"}}>Todo notes (Mongodb + spring boot + React)</div>
+                        </div>
+                    </a>
+                        
+                        
+                    </div>
                     
                 </Carousel>
                 {/* 
