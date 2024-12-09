@@ -24,9 +24,9 @@ class Navbar extends Component {
                                 <Link style={{color:"#E4ED20", fontSize:"2.5vmin"}} to="/">Home</Link>
                                 
                             </li>
-                            <li  style={{fontFamily: "League Spartan"}}>
+                            {/* <li  style={{fontFamily: "League Spartan"}}>
                                 <Link style={{color:"#E4ED20", fontSize:"2.5vmin"}} to="/Profile">About</Link>
-                            </li>
+                            </li> */}
                             <li  style={{fontFamily: "League Spartan"}}>
                                 <Link style={{color:"#E4ED20", fontSize:"2.5vmin"}} to="/Projects">Projects</Link>
                             </li>

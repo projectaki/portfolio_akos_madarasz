@@ -14,7 +14,7 @@ function App() {
         <Switch>
           <Route exact path = "/" component={FrontPage}/>
           <Route exact path= "/Projects" component = {Projects}/>
-          <Route exact path= "/Profile" component = {Profile}/>
+          {/* <Route exact path= "/Profile" component = {Profile}/> */}
         </Switch>
 
     </HashRouter>

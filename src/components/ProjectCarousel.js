@@ -152,7 +152,7 @@ class ProjectCarousel extends Component {
               </div>
             </a>
           </div>
-          <div style={{ textAlign: "center" }}>
+          {/* <div style={{ textAlign: "center" }}>
             <a
               href="https://spring-mongo-react.herokuapp.com/#/"
               class="collection-item"
@@ -174,7 +174,7 @@ class ProjectCarousel extends Component {
                 </div>
               </div>
             </a>
-          </div>
+          </div> */}
         </Carousel>
         {/* 
                 <div style={{paddingTop: "10vmin"}}>

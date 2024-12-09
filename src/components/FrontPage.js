@@ -16,12 +16,12 @@ class FrontPage extends Component {
                 <div class="row contact-positions"  >
 
                 
-                <div className="col s2 " style={{fontSize: "2vmin", paddingLeft: 0, paddingRight: 0, width: "6vmin"}}>
+                {/* <div className="col s2 " style={{fontSize: "2vmin", paddingLeft: 0, paddingRight: 0, width: "6vmin"}}>
                     <center><a href="https://www.linkedin.com/in/akos-madarasz-b430441a1/" style={{"color":"#0a66c2"}} >
                         <i className="fab fa-linkedin fa-3x" ></i>
                     </a></center>
                     
-                </div>
+                </div> */}
                 <div className="col s2 " style={{fontSize: "2vmin", paddingLeft: 0, paddingRight: 0, width: "6vmin", marginLeft: "2vmin"}}>
                     <a href="https://github.com/projectaki" style={{"color":"#9a43a7"}}>
                         <i className="fab fa-github fa-3x"  ></i>
