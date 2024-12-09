@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/portfolio_akos_madarasz/static/css/main.58010c55.chunk.css",
-    "main.js": "/portfolio_akos_madarasz/static/js/main.3d476199.chunk.js",
-    "main.js.map": "/portfolio_akos_madarasz/static/js/main.3d476199.chunk.js.map",
-    "runtime-main.js": "/portfolio_akos_madarasz/static/js/runtime-main.e0eee5e8.js",
-    "runtime-main.js.map": "/portfolio_akos_madarasz/static/js/runtime-main.e0eee5e8.js.map",
-    "static/css/2.1b581a0e.chunk.css": "/portfolio_akos_madarasz/static/css/2.1b581a0e.chunk.css",
-    "static/js/2.185c8bd6.chunk.js": "/portfolio_akos_madarasz/static/js/2.185c8bd6.chunk.js",
-    "static/js/2.185c8bd6.chunk.js.map": "/portfolio_akos_madarasz/static/js/2.185c8bd6.chunk.js.map",
-    "static/js/3.55aa85a7.chunk.js": "/portfolio_akos_madarasz/static/js/3.55aa85a7.chunk.js",
-    "static/js/3.55aa85a7.chunk.js.map": "/portfolio_akos_madarasz/static/js/3.55aa85a7.chunk.js.map",
+    "main.css": "/portfolio_akos_madarasz/static/css/main.324bb8b9.chunk.css",
+    "main.js": "/portfolio_akos_madarasz/static/js/main.d7e7890c.chunk.js",
+    "main.js.map": "/portfolio_akos_madarasz/static/js/main.d7e7890c.chunk.js.map",
+    "runtime-main.js": "/portfolio_akos_madarasz/static/js/runtime-main.fb48253b.js",
+    "runtime-main.js.map": "/portfolio_akos_madarasz/static/js/runtime-main.fb48253b.js.map",
+    "static/css/2.2088a121.chunk.css": "/portfolio_akos_madarasz/static/css/2.2088a121.chunk.css",
+    "static/js/2.517011aa.chunk.js": "/portfolio_akos_madarasz/static/js/2.517011aa.chunk.js",
+    "static/js/2.517011aa.chunk.js.map": "/portfolio_akos_madarasz/static/js/2.517011aa.chunk.js.map",
+    "static/js/3.a2e38b56.chunk.js": "/portfolio_akos_madarasz/static/js/3.a2e38b56.chunk.js",
+    "static/js/3.a2e38b56.chunk.js.map": "/portfolio_akos_madarasz/static/js/3.a2e38b56.chunk.js.map",
     "index.html": "/portfolio_akos_madarasz/index.html",
-    "static/css/2.1b581a0e.chunk.css.map": "/portfolio_akos_madarasz/static/css/2.1b581a0e.chunk.css.map",
-    "static/css/main.58010c55.chunk.css.map": "/portfolio_akos_madarasz/static/css/main.58010c55.chunk.css.map",
-    "static/js/2.185c8bd6.chunk.js.LICENSE.txt": "/portfolio_akos_madarasz/static/js/2.185c8bd6.chunk.js.LICENSE.txt",
+    "static/css/2.2088a121.chunk.css.map": "/portfolio_akos_madarasz/static/css/2.2088a121.chunk.css.map",
+    "static/css/main.324bb8b9.chunk.css.map": "/portfolio_akos_madarasz/static/css/main.324bb8b9.chunk.css.map",
+    "static/js/2.517011aa.chunk.js.LICENSE.txt": "/portfolio_akos_madarasz/static/js/2.517011aa.chunk.js.LICENSE.txt",
     "static/media/App.css": "/portfolio_akos_madarasz/static/media/synth.67db7a6c.jpg",
     "static/media/CV_Akos_Madarasz.08df002a.pdf": "/portfolio_akos_madarasz/static/media/CV_Akos_Madarasz.08df002a.pdf",
     "static/media/folder.33ac4fe4.png": "/portfolio_akos_madarasz/static/media/folder.33ac4fe4.png",
     "static/media/logo.3fb9222d.png": "/portfolio_akos_madarasz/static/media/logo.3fb9222d.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.e0eee5e8.js",
-    "static/css/2.1b581a0e.chunk.css",
-    "static/js/2.185c8bd6.chunk.js",
-    "static/css/main.58010c55.chunk.css",
-    "static/js/main.3d476199.chunk.js"
+    "static/js/runtime-main.fb48253b.js",
+    "static/css/2.2088a121.chunk.css",
+    "static/js/2.517011aa.chunk.js",
+    "static/css/main.324bb8b9.chunk.css",
+    "static/js/main.d7e7890c.chunk.js"
   ]
 }
